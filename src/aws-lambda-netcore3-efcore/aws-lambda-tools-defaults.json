@@ -1,0 +1,16 @@
+﻿{
+  "Information" : [    
+    "Sample connect to Database MySQL"
+  ],
+
+  "profile":"default",
+  "region" : "ap-southeast-1",
+  "configuration" : "Release",
+  "framework" : "netcoreapp3.0",
+  "function-runtime":"provided",
+  "function-memory-size" : 128,
+  "function-timeout" : 60,
+  "function-handler" : "aws-lambda-netcore3-efcore::aws_lambda_netcore3_efcore.Function::FunctionHandler",
+  "function-name" : "aws-lambda-netcore3-efcore",
+	"msbuild-parameters": "--self-contained true"
+  }
